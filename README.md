@@ -1,5 +1,5 @@
 # XYZMathKit
-Fast, Lean, and fairly accurate math kit for applications!
+Fast, Lean, and fairly accurate math kit for applications in C!
 
 No SIMD or ASM!
 
