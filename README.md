@@ -13,6 +13,15 @@ Basic Vector Math for 2D, 3D, and 4D Vectors:
 
 - Projection, Reflection, Distance, Distance Squared, Angle Between, Dot, Cross, Magnitude, Normalization, Min and Max
 
+Basic Matrix Math for 2D, 3D:
+
+- Multiplication, Transposing
+
+- Perspective and Otrhogonal Projection
+
+- 3D Translation, Rotation, Scaling (via 4x4 matrices)
+- 2D Translation, Rotation, Scaling (via 3x3 matrices)
+
 Basic Math Operations:
 
 - Floor, Ceil, Max, Min, Sin, Cos, Tan, Acos, Asin, Inverse Square Root, Square Root
