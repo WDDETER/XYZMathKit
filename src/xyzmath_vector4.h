@@ -37,7 +37,7 @@ static inline VectorN xyzvector4_sub(VectorN a, VectorN b)
 	return a;
 }
 
-static inline VectorN xyzvector4_mulscalar(VectorN a, const float scalar)
+static inline VectorN xyzvector4_mulScalar(VectorN a, const float scalar)
 {
 	a.x *= scalar;
 	a.y *= scalar;
@@ -47,7 +47,7 @@ static inline VectorN xyzvector4_mulscalar(VectorN a, const float scalar)
 	return a;
 }
 
-static inline VectorN xyzvector4_mulcomponent(VectorN a, VectorN b) 
+static inline VectorN xyzvector4_mulComponent(VectorN a, VectorN b) 
 {
 	a.x *= b.x;
 	a.y *= b.y;
@@ -151,7 +151,7 @@ static inline float xyzvector4_dist(VectorN a, VectorN b)
 	return xyzmath_sqrtf(a.x * a.x + a.y * a.y + a.z * a.z + a.w * a.w);
 }
 
-static inline float xyzvector4_distsq(VectorN a, VectorN b) 
+static inline float xyzvector4_distSq(VectorN a, VectorN b) 
 {
 	a.x -= b.x;
 	a.y -= b.y;
@@ -161,7 +161,7 @@ static inline float xyzvector4_distsq(VectorN a, VectorN b)
 	return a.x * a.x + a.y * a.y + a.z * a.z + a.w * a.w;
 }
 
-static inline float xyzvector4_anglebetween(VectorN a, VectorN b) 
+static inline float xyzvector4_angleBetween(VectorN a, VectorN b) 
 {
 	float dot = a.x * b.x + a.y * b.y + a.z * b.z + a.w * b.w;
 
